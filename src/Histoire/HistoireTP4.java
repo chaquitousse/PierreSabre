@@ -2,9 +2,11 @@ package Histoire;
 
 import Personnages.Commercant;
 import Personnages.Humain;
+import Personnages.Ronin;
 import Personnages.Yakuza;
 
 public class HistoireTP4 {
+	
 	public static void main(String[] args) {
 		Humain Squeezie = new Humain("Squeezie","Ciao Kombucha",54);
 		Squeezie.direBonjour();
@@ -23,5 +25,9 @@ public class HistoireTP4 {
 		Yakuza Yaku = new Yakuza ("Yaku le Nwar","Sirop de menthe",30,"Fan_de_Squeezie" );;
 		Yaku.direBonjour();
 		Yaku.extorquer(Marco);
+		
+		Ronin Roro = new Ronin ("Roro","Lait fermenté",60);
+		Roro.direBonjour();
+		Roro.donner(Marco);
 	}
 }
