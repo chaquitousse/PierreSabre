@@ -103,6 +103,12 @@ public class Humain {
 		this.parler(phrase + ".");
 	}
 	}
+
+
+	
+
+
+
 }
 	
 	

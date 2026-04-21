@@ -2,6 +2,7 @@ package Histoire;
 
 import Personnages.Commercant;
 import Personnages.Ronin;
+import Personnages.Samourai;
 import Personnages.Yakuza;
 
 public class HistoireTP5 {
@@ -18,5 +19,10 @@ public class HistoireTP5 {
 		rakan.listerConnaissance();
 		hasagui.listerConnaissance();
 		yaku.listerConnaissance();
+		
+		
+		Samourai akimoto = new Samourai("Miyamoto", "Akimoto", "saké", 80);
+		akimoto.direBonjour();
+		akimoto.boire("concentré de poulpe");
 	}
 }
