@@ -1,6 +1,7 @@
 package Histoire;
 
 import Personnages.Commercant;
+import Personnages.GrandMere;
 import Personnages.Ronin;
 import Personnages.Samourai;
 import Personnages.Traitre;
@@ -36,5 +37,14 @@ public class HistoireTP5 {
 		Mossado.faireConnaisance(yaku);
 		Mossado.faireLeGentil();
 		Mossado.faireConnaisance(akimoto);
+		
+		GrandMere grandMere = new GrandMere("Grand-Mère", 10); 
+		grandMere.faireConnaisance(akimoto); 
+		grandMere.faireConnaisance(yaku); 
+		grandMere.faireConnaisance(Mossado); 
+		grandMere.faireConnaisance(kumi); 
+		grandMere.faireConnaisance(rakan); 
+		grandMere.faireConnaisance(chonin); 
+		grandMere.ragoter(); 
 	}
 }

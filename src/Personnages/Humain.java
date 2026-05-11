@@ -78,7 +78,7 @@ public class Humain {
 		
 	}
 	
-	public void memoriser(Humain nouvelleConnaissance) {
+	protected void memoriser(Humain nouvelleConnaissance) {
 		if (this.nbConnaissance == memoire.length){
 			for (int i = 0; i<this.memoire.length-1;i++) {
 				memoire[i]=memoire[i+1];
